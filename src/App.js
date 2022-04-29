@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import RandomQuote from './RandomQuote.js';
 
 var list = require('./quotes.json')
 // Pour voir le contenu des citations
@@ -9,7 +10,9 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                Les citations vont ici.
+                <RandomQuote/>
+                <RandomQuote/>
+                <RandomQuote/>
             </header>
         </div>
     );
